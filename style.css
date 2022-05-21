@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #380B61;
+    font-size: 14px;
+
+    
+}
+body{
+    background-color: #F0F8FF;
+    display: flex;
+    justify-content: center;
+    color: #59429d;
+}
+fieldset{
+    border: 0;
+}
+#title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    
+}
+h1{
+    font-size: 1.7rem;
+}
+#title > p{
+    font-size: 1.3rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+#inicio{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nome-sobrenome-email{
+    display: flex;
+    flex-direction: column;
+}
+input[type="email"], input[type="text"]{
+    width: 180px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px rgb(73, 72, 72);
+    border-radius: 5px;
+    border: 1px solid #59429d;
+}
+select{
+    box-shadow: 1px 1px rgb(73, 72, 72);
+    border-radius: 5px;
+    border: 1px solid #59429d;
+}
+#campo-senioridade{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#tecnologias{
+    margin: 10px 0px;
+}
+#button{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    
+    
+}
+#button button{
+    background: #59429d;
+    color: #ffffff;
+   border: none;
+   width: 100px;
+   height: 25px;
+   border-radius: 5px;
+   box-shadow: 1px 1px rgb(73, 72, 72);
+   cursor: pointer;
+    
+}
+#button button:hover{
+    opacity: 0.8;
+}
+#button button:active{
+    opacity: 0.6;
+}
